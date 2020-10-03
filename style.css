@@ -1,0 +1,146 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(196, 155, 79);
+
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    background-image: url(bg.jpg);
+}
+
+#calculator{
+    width: 350px;
+    height: 550px;
+    background-color: blanchedalmond;
+    margin: 20px auto;
+    top: auto;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0 rgb(68, 35, 19);
+}
+
+#result{
+    height: 120px;
+}
+
+#keyboard{
+    height: 400px;
+    padding-left: 15px;
+    border-top-style: solid;
+    border-top-color: crimson;
+}
+
+#history{
+    text-align: left;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+#result{
+
+    text-align: left;
+    margin: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    height: 85px;
+    font-size: 27px;
+    color: firebrick;
+}
+.operator,.number{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin: 17px;
+    padding: 15px;
+    padding-left: 15px;
+    border-radius: 50%;
+    /* border-style: hidden; */
+    border-width: 0;
+    font-weight: 500px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.number{
+    background-color: transparent;
+    font-weight: 500px;
+}
+
+
+.operator:focus,.number:focus{
+    outline: 0;
+}
+
+#c{
+    background-color: lightcoral;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#\(,#\){
+    background-color: rgb(96, 207, 96);
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+#\/{
+    background-color: olive;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+#\*{
+    background-color: plum;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+#\%{
+    background-color: rgb(175, 175, 45);
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+#\-{
+   background-color: skyblue;
+   color: black;
+   font-weight: bold;
+   font-size: 17px;
+
+}
+
+#\+{
+    background-color: rgb(143, 49, 49);
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+#\={
+    background-color: tomato;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+    
+    .operator:active,.number:active{
+        font-size: 12px;
+        color: indianred;
+    }
